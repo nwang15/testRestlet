@@ -20,6 +20,7 @@ function runServer(port = PORT) {
       server = app.listen(port, () => {
 		console.log(`Your app is listening on port ${port}`);
 		console.log("anything");
+		console.log("2nd");
         resolve();
       })
         .on('error', err => {
